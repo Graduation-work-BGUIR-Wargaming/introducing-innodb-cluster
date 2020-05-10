@@ -1,0 +1,20 @@
+[mysqld]
+datadir="/Volumes/Macintosh_Data/cbell/source/rpl_macos/data/slave3"
+basedir="/usr/local/mysql-8.0.3-rc-macos10.12-x86_64/"
+port=13004
+socket="/Volumes/Macintosh_Data/cbell/source/rpl_macos/slave3.sock"
+
+server_id=4
+master_info_repository=TABLE
+relay_log_info_repository=TABLE
+binlog_checksum=NONE
+log_bin=slave3_binlog
+binlog_format=row
+log-error-verbosity=3
+report-port=13004
+report-host=localhost
+
+# GTID VARIABLES
+#gtid_mode=on
+#enforce_gtid_consistency=on
+#log_slave_updates=on

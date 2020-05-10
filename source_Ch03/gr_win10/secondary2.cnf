@@ -1,0 +1,21 @@
+[mysqld]
+datadir=C:/Users/olias/Documents/source/gr_win10/data/secondary2
+basedir="C:/Program Files/MySQL/MySQL Server 8.0"
+plugin_dir="C:/Program Files/MySQL/MySQL Server 8.0/lib/plugin/"
+port=24803
+socket=C:/Users/olias/Documents/source/gr_win10/secondary2.sock
+
+server_id=3
+gtid_mode=ON
+enforce_gtid_consistency=ON
+binlog_checksum=NONE
+
+loose-group_replication_recovery_get_public_key=ON
+loose-group_replication_recovery_use_ssl=ON
+loose-group_replication_group_name="bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee"
+loose-group_replication_start_on_boot=OFF
+loose-group_replication_local_address="127.0.0.1:24903"
+loose-group_replication_group_seeds="127.0.0.1:24901,127.0.0.1:24902,127.0.0.1:24903,127.0.0.1:24904"
+loose-group_replication_bootstrap_group=OFF
+
+

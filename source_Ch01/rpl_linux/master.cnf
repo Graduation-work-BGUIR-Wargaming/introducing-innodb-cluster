@@ -1,0 +1,20 @@
+[mysqld]
+
+datadir="/home/cbell/rpl_linux/data/master"
+basedir="/usr/"
+
+port=13001
+socket="/home/cbell/rpl_linux/master.sock"
+
+server_id=1
+master_info_repository=TABLE
+relay_log_info_repository=TABLE
+binlog_checksum=NONE
+log_bin=master_binlog
+binlog_format=row
+log-error-verbosity=3
+
+# GTID VARIABLES
+#gtid_mode=on
+#enforce_gtid_consistency=on
+#log_slave_updates=on

@@ -1,0 +1,20 @@
+[mysqld]
+datadir=C:/Users/olias/Documents/source/rpl_win10/data/master
+basedir="C:/Program Files/MySQL/MySQL Server 8.0"
+port=13001
+socket=C:/Users/olias/Documents/source/rpl_win10/master.sock
+
+server_id=1
+master_info_repository=TABLE
+relay_log_info_repository=TABLE
+binlog_checksum=NONE
+log_bin=master_binlog
+binlog_format=row
+log-error-verbosity=3
+#report-port=13001
+#report-host=localhost
+
+# GTID VARIABLES
+#gtid_mode=on
+#enforce_gtid_consistency=on
+#log_slave_updates=on

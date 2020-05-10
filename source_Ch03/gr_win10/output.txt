@@ -1,0 +1,164 @@
+C:\Users\olias\Documents\source\gr_win10>mysqld.exe --defaults-file=secondary3.cnf --console
+2018-03-08T20:04:39.927520Z 0 [Note] Basedir set to C:\Program Files\MySQL\MySQL Server 8.0\
+2018-03-08T20:04:39.936415Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-03-08T20:04:39.936462Z 0 [Note] C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe (mysqld 8.0.3-rc-log) starting as process 6188 ...
+2018-03-08T20:04:39.947575Z 0 [Warning] No argument was provided to --log-bin, and --log-bin-index was not used; so replication may break when this MySQL server acts as a master and has his hostname changed!! Please use '--log-bin=OPTIPLEX-7010-bin' to avoid this problem.
+2018-03-08T20:04:39.957684Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-03-08T20:04:39.963081Z 1 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-08T20:04:39.965110Z 1 [Note] InnoDB: Uses event mutexes
+2018-03-08T20:04:39.966036Z 1 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-08T20:04:39.967513Z 1 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2018-03-08T20:04:39.968946Z 1 [Note] InnoDB: Number of pools: 1
+2018-03-08T20:04:39.969945Z 1 [Note] InnoDB: Using CPU crc32 instructions
+2018-03-08T20:04:39.973673Z 1 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-03-08T20:04:39.983654Z 1 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-08T20:04:40.006868Z 1 [Note] InnoDB: Using 'tablespaces.open.1' max LSN: 13755268
+2018-03-08T20:04:40.012744Z 1 [Note] InnoDB: Applying a batch of 0 redo log records ...
+2018-03-08T20:04:40.014662Z 1 [Note] InnoDB: Apply batch completed!
+2018-03-08T20:04:40.030034Z 1 [Note] InnoDB: Opened 2 existing undo tablespaces.
+2018-03-08T20:04:40.212335Z 1 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-03-08T20:04:40.215093Z 1 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-03-08T20:04:40.363158Z 1 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-03-08T20:04:40.373498Z 1 [Note] InnoDB: Created 128 and tracked 128 new rollback segment(s) in the temporary tablespace. 128 are now active.
+2018-03-08T20:04:40.380324Z 1 [Note] InnoDB: 8.0.3 started; log sequence number 15044280
+2018-03-08T20:04:40.496886Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\olias\Documents\source\gr_win10\data\secondary3\ib_buffer_pool
+2018-03-08T20:04:40.522744Z 1 [Note] Found data dictionary with version 1
+2018-03-08T20:04:40.551174Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180308 15:04:40
+2018-03-08T20:04:40.562482Z 0 [Note] InnoDB: DDL log recovery : begin
+2018-03-08T20:04:40.564204Z 0 [Note] InnoDB: DDL log recovery : end
+2018-03-08T20:04:40.579631Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-03-08T20:04:40.582570Z 0 [Note] RSA private key file not found: C:\Users\olias\Documents\source\gr_win10\data\secondary3\\private_key.pem. Some authentication plugins will not work.
+2018-03-08T20:04:40.585669Z 0 [Note] RSA public key file not found: C:\Users\olias\Documents\source\gr_win10\data\secondary3\\public_key.pem. Some authentication plugins will not work.
+2018-03-08T20:04:40.588344Z 0 [Note] Server hostname (bind-address): '*'; port: 24804
+2018-03-08T20:04:40.589816Z 0 [Note] IPv6 is available.
+2018-03-08T20:04:40.590642Z 0 [Note]   - '::' resolves to '::';
+2018-03-08T20:04:40.591604Z 0 [Note] Server socket created on IP: '::'.
+2018-03-08T20:04:40.597567Z 0 [Warning] unknown variable 'loose-group_replication_recovery_get_public_key=ON'
+2018-03-08T20:04:40.599844Z 0 [Warning] unknown variable 'loose-group_replication_recovery_use_ssl=ON'
+2018-03-08T20:04:40.602015Z 0 [Warning] unknown variable 'loose-group_replication_group_name=bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee'
+2018-03-08T20:04:40.603900Z 0 [Warning] unknown variable 'loose-group_replication_start_on_boot=OFF'
+2018-03-08T20:04:40.605356Z 0 [Warning] unknown variable 'loose-group_replication_local_address=127.0.0.1:24904'
+2018-03-08T20:04:40.606981Z 0 [Warning] unknown variable 'loose-group_replication_group_seeds=127.0.0.1:24901,127.0.0.1:24902,127.0.0.1:24903,127.0.0.1:24904'
+2018-03-08T20:04:40.609675Z 0 [Warning] unknown variable 'loose-group_replication_bootstrap_group=OFF'
+2018-03-08T20:04:40.640167Z 4 [Note] Event Scheduler: scheduler thread started with id 4
+2018-03-08T20:04:40.640380Z 0 [Note] C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe: ready for connections. Version: '8.0.3-rc-log'  socket: ''  port: 24804  MySQL Community Server (GPL)
+2018-03-08T20:05:37.995830Z 9 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=OPTIPLEX-7010-relay-bin' to avoid this problem.
+2018-03-08T20:05:38.024900Z 9 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_recovery' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''.
+2018-03-08T20:05:38.092757Z 10 [Note] Plugin group_replication reported: 'Current debug options are: 'GCS_DEBUG_NONE'.'
+2018-03-08T20:05:38.098362Z 10 [Note] Plugin group_replication reported: 'Group communication SSL configuration: group_replication_ssl_mode: "DISABLED"'
+2018-03-08T20:05:38.102751Z 10 [Note] Plugin group_replication reported: '[GCS] Debug messages will be sent to: asynchronous::C:\Users\olias\Documents\source\gr_win10\data\secondary3\GCS_DEBUG_TRACE'
+2018-03-08T20:05:38.107970Z 10 [Note] Plugin group_replication reported: '[GCS] The Winsock 2.2 dll was found okay'
+2018-03-08T20:05:38.113637Z 10 [Note] Plugin group_replication reported: '[GCS] Added automatically IP ranges 127.0.0.1/8,192.168.1.116/24 to the whitelist'
+2018-03-08T20:05:38.119799Z 10 [Note] Plugin group_replication reported: '[GCS] SSL was not enabled'
+2018-03-08T20:05:38.122650Z 10 [Note] Plugin group_replication reported: 'Initialized group communication with configuration: group_replication_group_name: "bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee"; group_replication_local_address: "127.0.0.1:24904"; group_replication_group_seeds: "127.0.0.1:24901,127.0.0.1:24902,127.0.0.1:24903,127.0.0.1:24904"; group_replication_bootstrap_group: false; group_replication_poll_spin_loops: 0; group_replication_compression_threshold: 1000000; group_replication_ip_whitelist: "AUTOMATIC" group_replication_communication_debug_file: "GCS_DEBUG_TRACE" group_replication_communication_debug_path: "C:\Users\olias\Documents\source\gr_win10\data\secondary3\"'
+2018-03-08T20:05:38.150967Z 12 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_applier' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='<NULL>', master_port= 0, master_log_file='', master_log_pos= 4, master_bind=''.
+2018-03-08T20:05:38.188695Z 10 [Note] Plugin group_replication reported: 'Group Replication applier module successfully initialized!'
+2018-03-08T20:05:38.188826Z 15 [Note] Slave SQL thread for channel 'group_replication_applier' initialized, starting replication in log 'FIRST' at position 0, relay log '.\OPTIPLEX-7010-relay-bin-group_replication_applier.000001' position: 4
+2018-03-08T20:05:38.192104Z 0 [Note] Plugin group_replication reported: '[GCS] state 0 action xa_init'
+2018-03-08T20:05:38.215148Z 0 [Note] Plugin group_replication reported: '[GCS] Successfully bound to 0.0.0.0:24904 (socket=2572).'
+2018-03-08T20:05:38.218923Z 0 [Note] Plugin group_replication reported: '[GCS] Successfully set listen backlog to 32 (socket=2572)!'
+2018-03-08T20:05:38.221537Z 0 [Note] Plugin group_replication reported: '[GCS] Successfully unblocked socket (socket=2572)!'
+2018-03-08T20:05:38.224054Z 0 [Note] Plugin group_replication reported: '[GCS] Ready to accept incoming connections on 0.0.0.0:24904 (socket=2572)!'
+2018-03-08T20:05:38.224075Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24904'
+2018-03-08T20:05:38.229268Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24904 fd 2576'
+2018-03-08T20:05:38.234725Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24904'
+2018-03-08T20:05:38.237015Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24904 fd 2596'
+2018-03-08T20:05:38.240528Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24904'
+2018-03-08T20:05:38.242568Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24904 fd 2604'
+2018-03-08T20:05:38.245697Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24904'
+2018-03-08T20:05:38.249160Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24904 fd 2612'
+2018-03-08T20:05:38.252607Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24904'
+2018-03-08T20:05:38.254664Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24904 fd 2616'
+2018-03-08T20:05:38.257815Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24904'
+2018-03-08T20:05:38.259745Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24904 fd 2528'
+2018-03-08T20:05:38.262393Z 0 [Note] Plugin group_replication reported: '[GCS] connecting to 127.0.0.1 24901'
+2018-03-08T20:05:38.266178Z 0 [Note] Plugin group_replication reported: '[GCS] client connected to 127.0.0.1 24901 fd 2628'
+2018-03-08T20:05:38.856697Z 0 [Note] Plugin group_replication reported: '[GCS] state 4284 action xa_snapshot'
+2018-03-08T20:05:38.868156Z 0 [Note] Plugin group_replication reported: '[GCS] Creating new server node 0 host 127.0.0.1'
+2018-03-08T20:05:38.875280Z 0 [Note] Plugin group_replication reported: '[GCS] Installed site start={9c0930b4 1 0} boot_key={9c0930b4 1 0} node 4294967295'
+2018-03-08T20:05:38.889396Z 0 [Note] Plugin group_replication reported: '[GCS] Re-using server node 0 host 127.0.0.1'
+2018-03-08T20:05:38.894818Z 0 [Note] Plugin group_replication reported: '[GCS] Creating new server node 1 host 127.0.0.1'
+2018-03-08T20:05:38.901265Z 0 [Note] Plugin group_replication reported: '[GCS] Installed site start={9c0930b4 26 0} boot_key={9c0930b4 15 0} node 4294967295'
+2018-03-08T20:05:38.911493Z 0 [Note] Plugin group_replication reported: '[GCS] Re-using server node 0 host 127.0.0.1'
+2018-03-08T20:05:38.915242Z 0 [Note] Plugin group_replication reported: '[GCS] Re-using server node 1 host 127.0.0.1'
+2018-03-08T20:05:38.918440Z 0 [Note] Plugin group_replication reported: '[GCS] Creating new server node 2 host 127.0.0.1'
+2018-03-08T20:05:38.923252Z 0 [Note] Plugin group_replication reported: '[GCS] Installed site start={9c0930b4 51 0} boot_key={9c0930b4 40 0} node 4294967295'
+2018-03-08T20:05:38.932912Z 0 [Note] Plugin group_replication reported: '[GCS] Re-using server node 0 host 127.0.0.1'
+2018-03-08T20:05:38.937868Z 0 [Note] Plugin group_replication reported: '[GCS] Re-using server node 1 host 127.0.0.1'
+2018-03-08T20:05:38.942461Z 0 [Note] Plugin group_replication reported: '[GCS] Re-using server node 2 host 127.0.0.1'
+2018-03-08T20:05:38.945752Z 0 [Note] Plugin group_replication reported: '[GCS] Creating new server node 3 host 127.0.0.1'
+2018-03-08T20:05:38.953697Z 0 [Note] Plugin group_replication reported: '[GCS] Installed site start={9c0930b4 78 0} boot_key={9c0930b4 67 0} node 3'
+2018-03-08T20:05:38.957839Z 0 [Note] Plugin group_replication reported: '[GCS] new state x_recover'
+2018-03-08T20:05:38.960568Z 0 [Note] Plugin group_replication reported: '[GCS] state 4319 action xa_complete'
+2018-03-08T20:05:38.963464Z 0 [Note] Plugin group_replication reported: '[GCS] new state x_run'
+2018-03-08T20:05:40.951288Z 0 [Note] Plugin group_replication reported: 'A new primary was elected, enabled conflict detection until the new primary applies all relay logs'
+2018-03-08T20:05:40.972909Z 0 [Note] Plugin group_replication reported: 'Starting group replication recovery with view_id 15205395289010557:4'
+2018-03-08T20:05:41.981904Z 18 [Note] Plugin group_replication reported: 'Establishing group recovery connection with a possible donor. Attempt 1/10'
+2018-03-08T20:05:42.016690Z 18 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_recovery' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='OPTIPLEX-7010', master_port= 24801, master_log_file='', master_log_pos= 4, master_bind=''.
+2018-03-08T20:05:42.053425Z 18 [Note] Plugin group_replication reported: 'Establishing connection to a group replication recovery donor 82662a1d-230b-11e8-a3db-0016b6ee3d53 at OPTIPLEX-7010 port: 24801.'
+2018-03-08T20:05:42.058787Z 20 [Warning] Storing MySQL user name or password information in the master info repository is not secure and is therefore not recommended. Please consider using the USER and PASSWORD connection options for START SLAVE; see the 'START SLAVE Syntax' in the MySQL Manual for more information.
+2018-03-08T20:05:42.060456Z 21 [Note] Slave SQL thread for channel 'group_replication_recovery' initialized, starting replication in log 'FIRST' at position 0, relay log '.\OPTIPLEX-7010-relay-bin-group_replication_recovery.000001' position: 4
+2018-03-08T20:05:42.070133Z 20 [ERROR] Slave I/O for channel 'group_replication_recovery': error connecting to master 'rpl_user@OPTIPLEX-7010:24801' - retry-time: 60  retries: 1, Error_code: 2026
+2018-03-08T20:05:42.077378Z 20 [Note] Slave I/O thread for channel 'group_replication_recovery' killed while connecting to master
+2018-03-08T20:05:42.081025Z 20 [Note] Slave I/O thread exiting for channel 'group_replication_recovery', read up to log 'FIRST', position 4
+2018-03-08T20:05:42.090724Z 21 [Note] Error reading relay log event for channel 'group_replication_recovery': slave SQL thread was killed
+2018-03-08T20:05:42.098648Z 18 [ERROR] Plugin group_replication reported: 'There was an error when connecting to the donor server. Please check that group_replication_recovery channel credentials and all MEMBER_HOST column values of performance_schema.replication_group_members table are correct and DNS resolvable.'
+2018-03-08T20:05:42.105173Z 18 [ERROR] Plugin group_replication reported: 'For details please check performance_schema.replication_connection_status table and error log messages of Slave I/O for channel group_replication_recovery.'
+2018-03-08T20:05:42.121953Z 18 [Note] Plugin group_replication reported: 'Retrying group recovery connection with another donor. Attempt 2/10'
+22018-03-08T20:06:57.760844Z 18 [Note] Plugin group_replication reported: 'Establishing connection to a group replication recovery donor 82662a1d-230b-11e8-a3db-0016b6ee3d53 at OPTIPLEX-7010 port: 24801.'
+2018-03-08T20:06:57.766180Z 22 [Warning] Storing MySQL user name or password information in the master info repository is not secure and is therefore not recommended. Please consider using the USER and PASSWORD connection options for START SLAVE; see the 'START SLAVE Syntax' in the MySQL Manual for more information.
+2018-03-08T20:06:57.767910Z 23 [Note] Slave SQL thread for channel 'group_replication_recovery' initialized, starting replication in log 'FIRST' at position 0, relay log '.\OPTIPLEX-7010-relay-bin-group_replication_recovery.000001' position: 4
+2018-03-08T20:06:57.774752Z 22 [ERROR] Slave I/O for channel 'group_replication_recovery': error connecting to master 'rpl_user@OPTIPLEX-7010:24801' - retry-time: 60  retries: 1, Error_code: 2026
+2018-03-08T20:06:57.784884Z 22 [Note] Slave I/O thread for channel 'group_replication_recovery' killed while connecting to master
+2018-03-08T20:06:57.788765Z 22 [Note] Slave I/O thread exiting for channel 'group_replication_recovery', read up to log 'FIRST', position 4
+2018-03-08T20:06:57.798851Z 23 [Note] Error reading relay log event for channel 'group_replication_recovery': slave SQL thread was killed
+2018-03-08T20:06:57.804837Z 18 [ERROR] Plugin group_replication reported: 'There was an error when connecting to the donor server. Please check that group_replication_recovery channel credentials and all MEMBER_HOST column values of performance_schema.replication_group_members table are correct and DNS resolvable.'
+2018-03-08T20:06:57.811443Z 18 [ERROR] Plugin group_replication reported: 'For details please check performance_schema.replication_connection_status table and error log messages of Slave I/O for channel group_replication_recovery.'
+2018-03-08T20:06:57.830071Z 18 [Note] Plugin group_replication reported: 'Retrying group recovery connection with another donor. Attempt 3/10'
+
+
+*************************** 1. row ***************************
+                                      CHANNEL_NAME: group_replication_recovery
+                                        GROUP_NAME:
+                                       SOURCE_UUID:
+                                         THREAD_ID: NULL
+                                     SERVICE_STATE: OFF
+                         COUNT_RECEIVED_HEARTBEATS: 0
+                          LAST_HEARTBEAT_TIMESTAMP: 0000-00-00 00:00:00.000000
+                          RECEIVED_TRANSACTION_SET:
+                                 LAST_ERROR_NUMBER: 2026
+                                LAST_ERROR_MESSAGE: error connecting to master 'rpl_user@OPTIPLEX-7010:24801' - retry-time: 60  retries: 1
+                              LAST_ERROR_TIMESTAMP: 2018-03-08 15:07:34.460949
+                           LAST_QUEUED_TRANSACTION:
+ LAST_QUEUED_TRANSACTION_ORIGINAL_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+LAST_QUEUED_TRANSACTION_IMMEDIATE_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+     LAST_QUEUED_TRANSACTION_START_QUEUE_TIMESTAMP: 0000-00-00 00:00:00.000000
+       LAST_QUEUED_TRANSACTION_END_QUEUE_TIMESTAMP: 0000-00-00 00:00:00.000000
+                              QUEUEING_TRANSACTION:
+    QUEUEING_TRANSACTION_ORIGINAL_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+   QUEUEING_TRANSACTION_IMMEDIATE_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+        QUEUEING_TRANSACTION_START_QUEUE_TIMESTAMP: 0000-00-00 00:00:00.000000
+*************************** 2. row ***************************
+                                      CHANNEL_NAME: group_replication_applier
+                                        GROUP_NAME: bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee
+                                       SOURCE_UUID: bbbbbbbb-bbbb-cccc-dddd-eeeeeeeeeeee
+                                         THREAD_ID: NULL
+                                     SERVICE_STATE: ON
+                         COUNT_RECEIVED_HEARTBEATS: 0
+                          LAST_HEARTBEAT_TIMESTAMP: 0000-00-00 00:00:00.000000
+                          RECEIVED_TRANSACTION_SET:
+                                 LAST_ERROR_NUMBER: 0
+                                LAST_ERROR_MESSAGE:
+                              LAST_ERROR_TIMESTAMP: 0000-00-00 00:00:00.000000
+                           LAST_QUEUED_TRANSACTION:
+ LAST_QUEUED_TRANSACTION_ORIGINAL_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+LAST_QUEUED_TRANSACTION_IMMEDIATE_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+     LAST_QUEUED_TRANSACTION_START_QUEUE_TIMESTAMP: 0000-00-00 00:00:00.000000
+       LAST_QUEUED_TRANSACTION_END_QUEUE_TIMESTAMP: 0000-00-00 00:00:00.000000
+                              QUEUEING_TRANSACTION:
+    QUEUEING_TRANSACTION_ORIGINAL_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+   QUEUEING_TRANSACTION_IMMEDIATE_COMMIT_TIMESTAMP: 0000-00-00 00:00:00.000000
+        QUEUEING_TRANSACTION_START_QUEUE_TIMESTAMP: 0000-00-00 00:00:00.000000
+        
+        
+
